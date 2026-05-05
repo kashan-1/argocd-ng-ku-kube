@@ -1,0 +1,6 @@
+resources:
+  - ../../base/nginx
+
+patchesStrategicMerge:
+  - replica-patch.yml
+  - resource-patch.yml
